@@ -1,0 +1,25 @@
+
+
+body {
+	background-color: 	#F0D1B2;
+} 
+
+h1	{
+	font-family: "Cursive";
+	color: 	#C26685;
+}
+
+h2 {
+	font-weight: bold; 	
+
+}
+
+.favorite_cities {
+	color: 	#4C001A;
+	text-shadow: 3px 3px 3px #8585E0;
+}
+
+#places_to_visit_again {
+	color: 	#4C001A;
+	text-shadow: 3px 3px 3px #8585E0;
+}
