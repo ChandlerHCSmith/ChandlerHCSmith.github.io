@@ -1,0 +1,51 @@
+
+body {
+		background-color: #EFEFEF;
+}
+
+.cr {
+		width: 300;
+		height: 220;
+}
+
+.crwf {
+		width: 300;
+		height: 220;
+}
+
+.cz {
+		width: 300;
+		height: 220;
+}
+
+.crwf {
+		width: 300;
+		height: 220;
+}
+
+h1 {
+	color: lightblue;
+	text-align: left;
+	font-family: Cursive;
+	font-weight: bold;
+	letter-spacing:12px;
+	text-shadow: 2px 2px 2px blue;	
+}
+
+h2 {
+	color: blue;
+	text-align: center;
+	text-shadow: 5px 5px 5px lightblue;
+	font-family: "Verdant";
+	letter-spacing:12px;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+#text  {
+	text-align: left;
+	font-family: "Verdant";
+	color: 	#3D007A;
+	margin-right: 100px;
+	margin-left: 100px;
+}
