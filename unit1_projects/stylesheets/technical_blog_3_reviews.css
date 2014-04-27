@@ -1,0 +1,83 @@
+body {
+	background-color: #89AFAF;
+}
+
+.title {
+	color: #5252CC;
+	text-align: center;
+	font-family: cursive;
+	font-weight: lighter;
+	font-size: 67px;
+	text-shadow: 3px 3px 3px darkblue;
+}
+
+h1 {
+	text-indent: 20px;
+	font-family: cursive;
+	color: darkblue;
+	font-weight: lighter;
+}
+
+h2 {
+	text-indent: 20px;
+	padding-left: 50px;
+	font-family: "Times New Roman";
+	color: darkblue;
+	font-weight: lighter;
+}
+
+h3 {
+	text-indent: none;
+	padding-left: 10px;
+	font-family: "Times New Roman";
+	color: steelblue;
+	font-weight: lighter;
+}
+
+h4 {
+	text-indent: none;
+	padding-left: none;
+	font-family: "Times New Roman";
+	color: red;
+	font-weight: lighter;
+}
+
+.blog_post {
+	background-color: #EFEFEF;
+	width: 500px;
+	height: 1725px;
+	padding: 5px;
+	margin-top: 100px;
+	margin-left: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
