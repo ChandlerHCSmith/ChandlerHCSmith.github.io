@@ -1,0 +1,100 @@
+body {
+	background-color: 	#4C0000;
+	background: -webkit-linear-gradient(top, #990000 , #33ADFF); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom, #4C0000, #33ADFF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom, #4C0000, #33ADFF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom, #4C0000 , #33ADFF); /* Standard syntax (must be last) */
+}
+
+
+.title {
+	color: #5252CC;
+	text-align: center;
+	font-family: cursive;
+	font-weight: lighter;
+	letter-spacing: 12px;
+	font-size: 67px;
+	text-shadow: 3px 3px 3px darkblue;
+}
+
+h1 {
+	text-indent: 20px;
+	font-family: cursive;
+	color: darkblue;
+	font-weight: lighter;
+}
+
+h2 {
+	text-indent: 20px;
+	padding-left: 40px;
+	font-family: "Times New Roman";
+	color: darkblue;
+	font-weight: lighter;
+}
+
+h3 {
+	text-indent: none;
+	padding-left: 10px;
+	font-family: "Times New Roman";
+	color: steelblue;
+	font-weight: lighter;
+}
+
+h4 {
+	text-indent: none;
+	padding-left: none;
+	font-family: "Times New Roman";
+	color: red;
+	font-weight: lighter;
+}
+
+.blog_post {
+	background-color: #EFEFEF;
+	width: 500px;
+	height: 865px;
+	padding: 5px;
+	margin-top: 100px;
+	margin-left: 75px;
+	border: 2px solid #EFEFEF;
+	border-radius: 25px;
+	box-shadow: 3px 3px 3px #000000;
+	opacity: 0.95;
+}
+
+
+#minor_headings {
+	color: blue;
+}
+
+.body_of_blog {
+	color: 	#007A00;
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
