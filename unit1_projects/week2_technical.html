@@ -1,0 +1,122 @@
+<DOCTYPE! html>
+<html>
+	<header>
+	<title></title>
+	<link rel="stylesheet" href="stylesheets/week2_technical.css">
+	</header>
+
+	<body>
+	<div class="header">
+		<p>CHCS DBC blog:week2 (Technical)<p>
+		<nav>	
+			<ul>
+				<li><a href="http://blog.teamtreehouse.com/css-positioning">Treehouse</a></li>
+				<li><a href="http://www.codecademy.com/courses/advanced-css-positioning/0/1">CodeAcademy</a></li>
+				<li><a href="http://www.w3schools.com/css/css_positioning.asp">W3Schools</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="sidebar">
+		<p>Likes:</p>
+			<ul>
+				<li>Photography</li>
+				<li>Philosophy</li>
+				<li>Programming</li>
+				<li>Physics</li>
+			</ul>
+	</div>
+
+	<div class="content">
+		<h1>Today's Topic</h1>
+		<h2>Differences between relative, absolute, and fixed positioning?</h2>
+		<h3>Positioning</h3>
+			<p>Imagine that you plan on designing a travel brochure, like you might have done in High School.  One of your concerns revolved around the proper placing of all the different features you planned in your brochure.  These might be: The Title, Borders, Cover Image, Different Sections of Text and their associated headings and related images.</p>
+			<p>You might want to print out items and move them around on a background to see how they look - to help you experiment and design.</p>
+			<p>The process of communicating to the computer where different aspects of your page will display.  These aspects might be logos, lines of texts, background colors, images, lines to indicate a transition, navigation links, you name it - anything that visually shows up on the page.</p>
+
+			<p>This process involves positioning items and having a certain amount of creative control over each item.</p>
+
+			<p>The same is true of computer web design.</p>
+
+			<p>We will discuss relative, absolute, and fixed positioning and how these affect your ability to create amazing web pages!</p>
+
+		<h3>First Off</h3>
+			<p>It is important to know that each item/element (image, text, title, etc), is displayed in the order that they appear in the lines of code and by default they take up the entire width of the screen.  Writing code this way will produce lines of items, one right after the other on the screen.</p>
+			<p>This may be nice and at pleasing when first programming, however after a short period of time you have beautiful ideas and want to see them come to light.  This is where positioning is key.</p>
+
+		<h3>I.   Relative</h3>
+			<p>Elements that have been modified using &nbsp&nbsp&nbsp<code>position: relative;</code> behave at first just like described above.  They appear one right after another and take up an entire line.  However, they are subject to four "position values":</p>
+				<ul>
+					<li><code>top</code></li>
+					<li><code>bottom</code></li>
+					<li><code>right</code></li>
+					<li><code>left</code></li>
+				</ul>
+
+			<img src="images/code_relative_position.jpg" alt="Code for Relative Positioning">
+			<br>
+			<caption>screenshoot from CodeAcademy</caption>
+
+			<p>These allow you to move the elements from their normal position, the next line relative to other elements, in any of the following four directions: upwards, downwards, left or right by any given number of pixels.</p>
+
+			<img src="images/position_relative.jpg" alt="Box is Offset">
+			<br>
+			<caption>screenshoot from CodeAcademy</caption>
+
+		<h3>II.  Absolute</h3>
+			<p>Elements that have been modified using &nbsp&nbsp&nbsp<code>position: absolute;</code> have been removed from the normal flow of the document.  They appear to hover in one place on the screen as the rest of the document appears to "slide" underneath them.</p>
+
+			<p>They are again subject to four "position values":</p>
+				<ul>
+					<li><code>top</code></li>
+					<li><code>bottom</code></li>
+					<li><code>right</code></li>
+					<li><code>left</code></li>
+				</ul>
+
+			<img src="images/code_absolute_position.jpg" alt="Code for Absolute Positioning">
+			<br>
+			<caption>screenshoot from CodeAcademy</caption>
+
+			<p>These allow you to move the elements from their normal position, the next line relative to other elements, in any of the following four directions: upwards, downwards, left or right by any given number of pixels.</p>
+			
+			<img src="images/position_absolute.jpg" alt="Box is Offset">
+			<br>
+			<caption>screenshoot from CodeAcademy</caption>
+
+			<p>NOTE: When this property has been applied to an element, the element has been removed from the "normal flow" of all of the rest of the elements.  The rest of of your items will be arranged on your page the same as if the Absolutely Positioned Object were missing.</p>
+
+		<h3>III. Fixed</h3>
+
+			<p>After you have placed the following minimum code, the same four position value apply:</p>
+
+			<img src="images/code_fixed_position.jpg" alt="Code for Fixed Positioning">
+			<br>
+			<caption>screenshoot from CodeAcademy</caption>
+			
+			<p>Elements that have been modified using &nbsp&nbsp&nbsp<code>position: fixed;</code> are very similar to those of absolute with two differences:</p>
+
+			<ol>
+				<li>The element/item/object's "fixedness" is always in relation to the viewport.  So changing a parent element won't affect this setting.</li>
+				<li>These elements/items/objects will not move when the document is scrolled through.</li>		
+			</ol>
+
+			<p>As way of an example:</p>
+
+			<img src="images/position_fixed.jpg" alt="Promotion Bar is Fixed to the top of the Screen">
+			<br>
+			<caption>screenshoot from CodeAcademy</caption>
+
+			<p>The "Learn Web Design" promotion bar at the top of the screen stays "fixed" to the top as you scroll through the document.</p>
+
+
+			<h3>Now, Experiment!</h3>
+			<h3>Be sure to check out the 3 very useful sites linked at the top of this page!</h3>
+
+	</div>
+	<div class="footer">
+		<p>2014, The Happiness Company *</p>
+	</div>
+	</body>
+
+</html>

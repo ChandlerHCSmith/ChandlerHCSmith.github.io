@@ -1,0 +1,146 @@
+
+body {
+	background-color: #FFF7EF;
+
+}
+
+caption {
+	font-size: 9px;
+}
+
+/* Header */
+.header {
+	width: 1225px;
+	height: 100px;
+	background-color: 	#FFF1E2;
+	border-bottom: 5px solid #C2C29F;
+	display: block;
+
+}
+
+.header p {
+	font-family: cursive;
+	font-size: 36px;
+	color: #344399;
+	float: left;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 20px;
+
+
+}
+
+.header nav {
+	font-family: cursive;
+	color: green;
+	float: right;
+
+	padding-left: 20px;
+	padding-top: 50px;
+	padding-bottom: 5px;
+	padding-right: 20px;
+
+}
+
+.header ul li{
+	list-style: none;
+	float: left;
+
+}
+
+.header a {
+	color: brown;
+	text-decoration: none;
+	margin: 30px;
+
+}
+
+.header a:link {
+	color: brown;
+}
+
+.header a:hover {
+	color: blue;
+}
+
+.header a:active {
+	color: lightgreen;
+}
+
+.header a:visited {
+	color: red;
+}
+
+/* Sidebar */
+
+.sidebar {
+	width: 200px;
+	height: 3030px;
+	margin: 5px 5px 20px -550px;
+	border-right: 1px dashed #000;
+	display: inline-block;
+	float: left;
+}
+
+
+.sidebar p {
+	font-family: "Verdant";
+}
+
+}
+
+.sidebar li{
+	font-family: "Verdant";
+}
+
+
+
+/* Content */
+
+.content {
+	font-family: "Verdant";
+	width: 880px;
+	margin: 5px 5px 20px 50px;
+	padding: 10px;
+	display: inline-block;
+}
+
+.content p h1 h2 h3 {
+	font-family: "Verdant";
+}
+
+.content h1 {
+	color: #4444DD;
+}
+
+.content h2 {
+	color: #AB4D3F;
+}
+
+.content h3 {
+	color: #333399;
+}
+
+.content p {
+	color: #556677;
+}
+/* Footer */
+
+.footer {
+	font-family: cursive;
+	background-color: #CCC6BF;
+	width: 1225px;
+	height: 40px;
+	margin: 10px;
+	display: inline-block;
+}
+
+.footer p {
+		color: 	#8080FF;
+		margin: 10px;
+		padding: 0px;
+		text-indent: 0px;
+}
+
+
