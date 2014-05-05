@@ -1,0 +1,197 @@
+
+body {
+	background-color: #FFF7EF;
+
+}
+
+caption {
+	font-size: 9px;
+}
+
+/* Header */
+.header {
+	width: 1280px;
+	height: 100px;
+	background-color: 	#FFF1E2;
+	margin: 0px;
+	border-bottom: 5px solid #C2C29F;
+	display: block;
+
+}
+
+.header p {
+	font-family: 'Black Ops One';
+	font-size: 36px;
+	color: #344399;
+	float: left;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 20px;
+
+
+}
+
+.header nav {
+	font-family: 'Black Ops One';
+	color: green;
+	float: right;
+	margin-left: -500px;
+	padding-left: 20px;
+	padding-top: 50px;
+	padding-bottom: 5px;
+	padding-right: 20px;
+
+}
+
+.header ul li{
+	list-style: none;
+	float: left;
+
+}
+
+.header a {
+	color: brown;
+	text-decoration: none;
+	margin: 9px;
+
+}
+
+.header a:link {
+	color: brown;
+}
+
+.header a:hover {
+	color: blue;
+}
+
+.header a:active {
+	color: lightgreen;
+}
+
+.header a:visited {
+	color: red;
+}
+
+/* Sidebar Left or Column One*/
+
+.sidebar_left {
+	width: 200px;
+	height: 1800px;
+	margin: 5px 5px 20px -630px;
+	border-right: 1px dashed #000;
+	display: inline-block;
+	float: left;
+}
+
+.sidebar_left p {
+	font-family: "Verdant";
+}
+
+#title_sbl {
+	font-size: 20px;
+	color: blue;
+	font-weight: bold;
+}
+
+#paragraphs_sbl {
+	margin: 0px 5px 0px -25px;
+}
+
+
+
+.sidebar_left li{
+	font-family: "Verdant";
+}
+
+
+
+/* Content */
+
+.content {
+	font-family: "Verdant";
+	width: 600px;
+	height: 1800px;
+	margin: 5px 5px 20px 50px;
+	border-right: 1px dashed #000;
+	padding: 10px;
+	display: inline-block;
+}
+
+.content p h1 h2 h3 {
+	font-family: "Verdant";
+}
+
+.content h1 {
+	color: #4444DD;
+}
+
+.content h2 {
+	color: #AB4D3F;
+}
+
+.content h3 {
+	color: #333399;
+}
+
+.content p {
+	color: #556677;
+}
+
+img {
+	width: 240px;
+	height: 300px;
+	margin: 0px 0px 0px 145px;
+	box-shadow: 3px 3px 3px black;
+}
+
+
+/* Sidebar Right or Column Three */
+
+.sidebar_right {
+	width: 200px;
+	height: 2000px;
+
+	border-right: 1px dashed #000;
+	display: inline-block;
+}
+
+
+.sidebar-right p {
+	font-family: "Verdant";
+}
+
+}
+
+.sidebar_right li{
+	font-family: "Verdant";
+}
+
+
+
+/* Footer */
+
+.footer {
+	font-family: cursive;
+	background-color: #CCC6BF;
+	width: 1225px;
+	height: 40px;
+	margin: 10px;
+	display: inline-block;
+}
+
+.footer p {
+		color: 	#8080FF;
+		margin: 10px;
+		padding: 0px;
+		text-indent: 0px;
+}
+
+/*  Ran out of Time */
+
+/** Tablet view **/
+/* @media screen and (max-width: 960px){  */
+/** Mobile view **/
+/*@media screen and (max-width: 480px){*/
+
+
