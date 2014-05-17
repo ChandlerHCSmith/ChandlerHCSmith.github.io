@@ -1,0 +1,91 @@
+<DOCTYPE! html>
+<html>
+	<head>
+	<title>Week 4 Technical Blog</title>
+	<link rel="stylesheet" href="stylesheets/wk4_technical_blog.css">
+	<link href='http://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+	<div class="header">
+		<p>Week 4 Technical Blog<p>
+		<nav>	
+			<ul>
+				<li><a href="http://blog.teamtreehouse.com/css-positioning">Treehouse</a></li>
+				<li><a href="http://www.codecademy.com/courses/advanced-css-positioning/0/1">CodeAcademy</a></li>
+				<li><a href="http://www.w3schools.com/css/css_positioning.asp">W3Schools</a></li>
+				<li><a href="http://www.netflix.com/">Relaxation</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="content">
+		<h1>Useful Methods</h1>
+
+		<h2>Enumerable Methods</h2>
+
+		<h3>Enumerable#map</h3>
+
+		<p>We will focus on the use of .map and .each.  I will show the use of both and illuminate some differences and some advantages of .map over .each.</p>
+
+
+		<h3>.each</h3>
+
+		<p>Let's look at .each first.</p> 
+
+		<p>.each is nice for calling a block once for each element in an array.  The element is passed as a parameter.</p>
+
+		<p>The block is preformed and then the computer is given as outputs returned values.</p>
+
+		<p>Two Examples using .each</p>
+
+		<p>An example of some code utilizing .each</p>
+		<img src="images/each.jpg" alt="Code using .each">
+
+		<p>An example of the output .each</p>
+		<img id="output_1" src="images/output_1_each.jpg" alt="Output of Above Code">
+
+		<p>.each works great to iterate, to go through an array element by element and preform a specific task.</p>
+
+		<p>However, once done, you only new data.  Your data is provided as only returns, not actual variables.  As the coder you can save them to a data structure, but this is more code.</p>
+		<hr>
+
+		<h3>Now, for something special, for something more compact*.</h3>
+		<h3>.map</h3>
+
+		<p>.map moves us to move through every element in an array in much the same manner as .each.</p>
+		<p>.map allows us to preform some specific task on every element.</p>
+		<p>*However, .map adds these output automatically to a new array.</p>
+		<p>We do not have to write the code that stores this new information, it is stored for us!</p>
+		<p>This allows us to reduce code.</p>
+		<p>How NICE!</p>
+
+		<p>Two Examples using .each</p>
+
+		<p>An example of some code utilizing .each</p>
+		<img id="map_code_img" src="images/map.jpg" alt="Code using .each">
+
+		<p>An example of the output .each</p>
+		<img id="output_1" src="images/output_1_map.jpg" alt="Output of Above Code">
+
+		<br>	
+		<p>*I know that there are more lines of code and I promised something more compact.  It actually is.  The portion of code to look at is actually line 21 the array is defined, line 29 the .map is applied, and line 30 is only to verify that the new array exists.</p>
+		<p>Only 2 lines of code!</p>
+
+		<h3>Wrapping it up</h3>
+
+		<p>Both .each and .map would be useful in debugging by allowing us to loop through vast amount of data quickly.</p>
+		<p>The benefit again being that .map provides us a new object with all of the results stored for us to access later.</p>
+
+		<h3>To do more research:</h3>
+
+		<a href="http://www.ruby-doc.org/core-2.1.2/Enumerable.html" alt="Ruby Doc Notation for Enumerable">Ruby Doc Notation Website</a>    
+
+	</div>
+
+
+	<div class="footer">
+		<p>2014, Adverture Sundays SSR *</p>
+	</div>
+	</body>
+
+</html>
