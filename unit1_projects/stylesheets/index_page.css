@@ -109,6 +109,8 @@ caption {
 /* Content */
 
 .content {
+	position: relative;
+	float: left;
 	font-family: "Verdant";
 	width: 600px;
 	height: 1800px;
@@ -149,10 +151,10 @@ img {
 /* Sidebar Right or Column Three */
 
 .sidebar_right {
+	position: relative;
+	float: right;
 	width: 200px;
 	height: 2000px;
-
-	border-right: 1px dashed #000;
 	display: inline-block;
 }
 
