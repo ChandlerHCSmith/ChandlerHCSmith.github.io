@@ -124,14 +124,12 @@ p north_korean_cipher("ger^wsqifshc*nywx^kix^qi&10000*fekw@sj$gssp%vergl@hsvmxsw
 
 def north_korean_cipher(coded_message)
   coded_message_split = coded_message.downcase.split("") 
-
   decoded_sentence = []
   
 
    
   coded_message_split.each do |element|
   element_ascii = element.sum
-  found_match = false
 
 # ------- additional code to analysis the ASCii values and change symbols accordingly.
 
@@ -139,44 +137,30 @@ def north_korean_cipher(coded_message)
 
         if element_ascii >= 97 && element_ascii <= 100
           element_ascii_decoded = element_ascii + 22
-          puts element_ascii_decoded
           element_ascii_decoded_recovered = element_ascii_decoded.chr
-          puts element_ascii_decoded_recovered
           decoded_sentence << element_ascii_decoded_recovered
-          found_match = true
-          break
+
         else element_ascii >= 101 && element_ascii <=122
           element_ascii_decoded = element_ascii - 4
-          puts element_ascii_decoded
           element_ascii_decoded_recovered = element_ascii_decoded.chr
-          puts element_ascii_decoded_recovered
           decoded_sentence << element_ascii_decoded_recovered
-          found_match = true
-          break
         end
-
-        found_match = true
-        break  
+ 
       elsif element == "@" || element == "#" || element == "$" || element == "%"|| element == "^" || element == "&"|| element =="*" #What the heck is this doing?
         decoded_sentence << " "
-        found_match = true
-        break
+ 
       elsif (0..9).to_a.include?(element)
         decoded_sentence << element
-        found_match = true
-        break
-      end 
 
-    if not found_match
+      else
       decoded_sentence << element
     end
-
+end
   decoded_sentence = decoded_sentence.join("")
  
   if decoded_sentence.match(/\d+/)
     decoded_sentence.gsub!(/\d+/) { |num| num.to_i / 100 }
   end  
-  end
   return decoded_sentence        
 end
 
