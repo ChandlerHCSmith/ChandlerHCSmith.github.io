@@ -130,7 +130,8 @@ puts array_2.pad_array(array_2, 5,"turtles")
 puts array_2.pad_array!(array_2, 9,"turtles")
 
 #  This isn't much refactoring.  After looking at marekpwk's solution, I see a really cool use of self and .times that would shorten
-#  		my code by 11 lines.  I understand marekpwk's solution, but cannot access this type of think just tonight.
+#  		my code by 11 lines.  I understand marekpwk's solution, but cannot access this type of think just tonight, to make it my own instead
+#     of copying will work on that for the 07_Refactor Review challenge.
 
 
 # 4. Reflection 
