@@ -2,13 +2,40 @@
 
 # I worked on this challenge [by myself].
 
--------------------Release 0 Run the Tests-------------------------------------------
+#-------------------Release 0 Run the Tests-------------------------------------------
+
+#Test Code that would work for the first run through of San Francisco:
+
+#puts group_1 == ["Alex White", "Ernie Salazar", "Gannon Curran", "Patrick Reynolds"]
+#puts group_2 == ["Chandler Smith", "Ariel Fogel", "Lauren Kroner", "Arik Gadye"] 
+#puts group_3 == ["Premila Anand", "Morgan O'Leary", "John Akers", "Matthew Darin"] 
+#puts group_4 == ["Puru Dahal", "Hethe Berg", "Steven Leu", "Albert Alquisola"]
+#puts group_5 == ["Tony Leung", "Brian Paak", "Allison Reilly", "Michele Murphy"]
+#puts group_6 == ["Brian Junio", "Jared K. Chevalier", "Justin Harnoss"]
+#puts group_7 == []
+
+# could also use:
+
+#puts group_1.is_a?(Array)
+#puts group_2.is_a?(Array)
+#puts group_3.is_a?(Array)
+#puts group_4.is_a?(Array)
+#puts group_5.is_a?(Array)
+#puts group_6.is_a?(Array)
+#puts group_7.is_a?(Array)
+
+
+#* This code should be place inside the Method before the end.
+#**  I do not know how to work test code that tests all of my data and the shuffled arrays.  What resource would be helpful?
+#  My test code is also inside my code and this troubles me.  The difficulty also could be occuring because I called the method more than once with 
+#     more than one set of data.  I know it can be done, I just don't know how.
+
 =begin 
 
 =end
 
 
--------------------Release 1 Pseudocode-------------------------------------------
+#-------------------Release 1 Pseudocode-------------------------------------------
 
 # 1. Pseudocode
 
@@ -56,7 +83,7 @@
 
 
 
--------------------Release 2 Initial Solution-------------------------------------------
+#-------------------Release 2 Initial Solution-------------------------------------------
 
 # 2. Initial Solution
 
@@ -140,7 +167,7 @@ puts
 
 
 
--------------------Release 3 Refactored Solution-------------------------------------------
+#-------------------Release 3 Refactored Solution-------------------------------------------
 
 # 3. Refactored Solution
 
@@ -205,6 +232,7 @@ def a_g_c(array)
   print group_7
   puts
   puts
+            
 end
 
 san_francisco_purple_martins = ["Alex White", "Ernie Salazar", "Gannon Curran", "Patrick Reynolds", 
@@ -291,28 +319,7 @@ puts
 a_g_c(chicago_salamanders)
 puts
 
-# --------------------------------
-puts "Accountability Groups for Unit 1:"
-puts
-a_g_c(chicago_salamanders).kind_of? == Array
-puts
-
-chicago_salamanders = chicago_salamanders.shuffle!
-
-
-puts "Accountability Groups for Unit 2:"
-puts
-a_g_c(chicago_salamanders).kind_of? == Array
-puts
-
-chicago_salamanders = chicago_salamanders.shuffle!
-
-puts "Accountability Groups for Unit 3:"
-puts
-a_g_c(chicago_salamanders).kind_of? == Array
-puts
-
--------------------Release 4 My Reflections-------------------------------------------
+#-------------------Release 4 My Reflections-------------------------------------------
 # 4. Reflection 
 
 =begin
