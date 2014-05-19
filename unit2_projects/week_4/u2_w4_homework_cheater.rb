@@ -6,17 +6,37 @@
 
 # I worked on this challenge [by myself].
 
--------------------Release 0 Run the Tests-------------------------------------------
+#-------------------Release 0 Run the Tests-------------------------------------------
 =begin 
+ Please look at lines 106 through 116.  (Since I created three different essays, this type of code will need to be modified for the other two
+     essay accordingly.)
 
+  puts t == "The soundness of fury"
+  puts u == "William Faulkner is considered to be a most influential author."
+  puts v == "He is well known for having penned As I Lay Dying."
+  puts w == "He will be remembered for many years to come for the following quote:
+  \"We have to start teaching ourselves not to be afraid.\""
+  puts x == "Sadly, William Faulkner died in 1962."
+  puts t.is_a?(String)
+  puts u.is_a?(String)
+  puts v.is_a?(String)
+  puts w.is_a?(String)
+  puts x.is_a?(String)  
+
+  I am not pleased that my test code is inside my method.
+
+  *Also this test only works for one specific title, author, year of death, quote, and famous book.
+       This same approach would only test one specific set of input for the other two subject specific essays.
+  I am not sure how to write test code that verifies that an author's name has legitimately been entered and that what I have is even an essay.
+  I know that I can use .is_a?(type) or .kind_of?(type) to test if inputs are Strings or Integers and if outputs are Strings.
 =end
 
 
--------------------Release 1 Pseudocode-------------------------------------------
+#-------------------Release 1 Pseudocode-------------------------------------------
 
 # 1. Pseudocode
 
-1 Writing an essay on the fly-------------------------------------------------------------
+#1 Writing an essay on the fly-------------------------------------------------------------
 
 #Write a method total which takes an Array of numbers as its input and returns their total (sum).
 
@@ -53,11 +73,11 @@ Ask the user to chose a subject.
 
 
 
--------------------Release 2 Initial Solution-------------------------------------------
+#-------------------Release 2 Initial Solution-------------------------------------------
 
 # 2. Initial Solution
 
-2 Writing an essay on the fly-------------------------------------------------------------
+#2 Writing an essay on the fly-------------------------------------------------------------
 
 def mad_lib_author(array)
   title = array[0]
@@ -69,14 +89,32 @@ def mad_lib_author(array)
   gender = array[6] 
 
   puts
-  puts "#{title}"
-  puts
+  t = "#{title}"
+  puts t
   puts 
-  puts "#{first_name} #{last_name} is considered to be a most influential author."
-  puts "#{gender.capitalize} is well known for having penned #{book}."
-  puts "#{gender.capitalize} will be remembered for many years to come for the following quote:
+  puts
+  u = "#{first_name} #{last_name} is considered to be a most influential author."
+  puts u
+  v = "#{gender.capitalize} is well known for having penned #{book}."
+  puts v
+  w = "#{gender.capitalize} will be remembered for many years to come for the following quote:
   \"#{quote}\""
-  puts "Sadly, #{first_name} #{last_name} died in #{year}."
+  puts w
+  x = "Sadly, #{first_name} #{last_name} died in #{year}."
+  puts x
+  
+  puts t == "The soundness of fury"
+  puts u == "William Faulkner is considered to be a most influential author."
+  puts v == "He is well known for having penned As I Lay Dying."
+  puts w == "He will be remembered for many years to come for the following quote:
+  \"We have to start teaching ourselves not to be afraid.\""
+  puts x == "Sadly, William Faulkner died in 1962."
+  puts t.is_a?(String)
+  puts u.is_a?(String)
+  puts v.is_a?(String)
+  puts w.is_a?(String)
+  puts x.is_a?(String)  
+
 end 
 
 def mad_lib_military_leader(array)
@@ -224,17 +262,17 @@ end
 
 
 
--------------------Release 3 Refactored Solution-------------------------------------------
+#-------------------Release 3 Refactored Solution-------------------------------------------
 
 # 3. Refactored Solution
 
-3 Writing an essay on the fly: Refactored-------------------------------------------------------------
+#3 Writing an essay on the fly: Refactored-------------------------------------------------------------
 
 #   See above.  My Initial is the same as my refactored other than some spelling errors, copying errors, 
 #     and one assigning error.  All of these were fixed while creating the intial code.
 
 
--------------------Release 4 My Reflections-------------------------------------------
+#-------------------Release 4 My Reflections-------------------------------------------
 # 4. Reflection 
 
 =begin
