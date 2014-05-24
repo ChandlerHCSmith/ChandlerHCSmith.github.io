@@ -1,0 +1,79 @@
+<DOCTYPE! html>
+<html>
+	<head>
+	<title>Week 5 Technical Blog</title>
+	<link rel="stylesheet" href="stylesheets/wk5_technical_blog.css">
+	<link href='http://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+	<div class="header">
+		<p>Week 5 Technical Blog<p>
+		<nav>	
+			<ul>
+				<li><a href="http://blog.teamtreehouse.com/css-positioning">Treehouse</a></li>
+				<li><a href="http://www.codecademy.com/courses/advanced-css-positioning/0/1">CodeAcademy</a></li>
+				<li><a href="http://www.w3schools.com/css/css_positioning.asp">W3Schools</a></li>
+				<li><a href="http://www.netflix.com/">Relaxation</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="content">
+		<h1>Classes</h1>
+
+		<h2>A Popular Example</h2>
+		<p>Probably the most typical example given for the use of Classes is a Bank and a Bank Account.</p>
+		<p>This bank has certain procedures that it utilizes.  These procedures carry out certain functions.  In short, they manipulate information.  In coding we would call these procedures or functions, "methods".  Some of these methods are directly "knowable"/accessible by each client and others are internal procedures.</p>
+		<h3>First Things First</h3>
+		<p>In the real world, we would write code that "creates" the Bank.  For this discussion, we could produce a class called Bank.  The class called Bank would contain hundreds of methods and other classes.  These methods and classes would need to share certain information as well as not have access to certain information, "isolated" information.</p>
+		<p>How is this done?</p>
+		<img id="img_1" src="images/class_bank_1.jpg" alt="Example of Defining Bank as a Class">
+
+		<h3>For Our Purposes:</h3>
+		<p>We will need a Class called BankAccount nested inside the Class Bank</p>
+		<p>We will want potential clients to become members of our bank.  They will need to be able to give us personal information.  We will want to create personnal accounts for them.  They will expect certain services.  We will need to be able to proide these services.  We will want their information to stay their's - I am not talking about security, but specifically about keeping all of one person's information with that person and not having it spill over into other people's accounts.  This is a great use of instance variables.</p>
+		<p>To do this:</p>
+		<p>We will need to utilize a method called initialize.  This method is placed directly after the opening of our class BankAccount.  This method takes in all of the personal initial information.  This will link new clients and their information and future transactions together.</p>
+
+		<p>How is this done?</p>
+		<img id="img_2" src="images/class_bank_2.jpg" alt="Example of Defining Bank Account as a Class">
+
+
+		<h3>Ready to add Methods?</h3>
+		<p>We can add a method for checking our accounts balance, depositing money :), and withdrawing money :).  Each one of these methods will need to be able to access information from the client.</p>
+		<p>Therefore, we will use instance variables for any information that needs to be brought in from "outside" the method.</p>
+
+		<p>How is this done?</p>
+		<img id="img_3" src="images/class_bank_3.jpg" alt="Example of Methods">	
+
+		<h3>Accessing Classes and their Method?</h3>
+		<p>Now, our customer is able to check their balance, deposit money, and withdraw money.  Each of these transactions are linked to the customer and will be held for the next time that the client wants to access their account.</p>
+
+		<p>How is this done?</p>
+		<img id="img_4" src="images/class_bank_4.jpg" alt="Example of Methods">	
+
+		<p>In the above example Feragon HX Tolgii is instantiated as the owner of a zero balance before the account is opened.  Feragon deposits $100,000 and immediately withdraws $10,000.</p>
+		<p>At some point in the future Feragon checks his balance.  Then later deposits $100,000 and at another time withdraws $40,000.  He then checks his balance.</p>
+
+		<p>Classes also allow for us to use code to be used individually for multiple clients.</p>
+
+		<h3>Extensions</h3>
+		<p>Classes could also be used to create Umbrella Organizations, Organizations, or Companies that share certain information, goods, and services.</p>
+
+		<h3>To do more research:</h3>
+
+		<a href="http://nlakkakula.wordpress.com/2007/10/10/nested-classes-in-ruby/" alt="Nested Classes">Nested Classes</a>    
+
+	</div>
+
+
+	<div class="footer">
+		<p>2014, Adverture Sundays SSR *</p>
+	</div>
+	</body>
+
+</html>
+
+
+
+
