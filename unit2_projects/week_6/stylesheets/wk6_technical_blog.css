@@ -1,0 +1,229 @@
+
+body {
+	background-color: #FFFFEF;
+
+}
+
+caption {
+	font-size: 9px;
+}
+
+/* Header */
+.header {
+	width: 98%;
+	height: 100px;
+	background-color: #FFF1E2;
+	margin: 0px;
+	border-bottom: 5px solid #C2C29F;
+	display: block;
+
+}
+
+.header p {
+	font-family: 'Black Ops One';
+	font-size: 36px;
+	color: #344399;
+	float: left;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 20px;
+
+
+}
+
+.header nav {
+	font-family: 'Black Ops One';
+	color: green;
+	float: right;
+	margin-left: -500px;
+	padding-left: 20px;
+	padding-top: 50px;
+	padding-bottom: 5px;
+	padding-right: 20px;
+
+}
+
+.header ul li{
+	list-style: none;
+	float: left;
+
+}
+
+.header a {
+	text-decoration: none;
+	margin: 9px;
+
+}
+
+.header a:link {
+	color: brown;
+}
+
+.header a:hover {
+	color: blue;
+}
+
+.header a:active {
+	color: lightgreen;
+}
+
+.header a:visited {
+	color: red;
+}
+
+/* Content */
+
+.content {
+	font-family: "Verdant";
+	width: 98%;
+	height: 2640px;
+	margin: 5px 5px 5px 5px;
+	padding: 10px;
+	display: inline-block;
+}
+
+.content p h1 h2 h3 {
+	font-family: "Verdant";
+}
+
+.content p {
+	text-indent: 10px;
+}
+
+#body_paragraphs::first-letter 
+{
+color:#121212;
+font-size:xx-large;
+}
+
+#title_line {
+	text-align: center;
+}
+
+.content h1 {
+	color: #4444DD;
+}
+
+.content h2 {
+	color: #AB4D3F;
+}
+
+.content h3 {
+	color: #333399;
+}
+
+.content p {
+	color: #556677;
+}
+
+#definition{
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#feature_pic {
+	height: .92*width;
+	width: 40%;
+	margin: 0% 30% 0% 30%;
+	box-shadow: 3px 5px 3px black;
+}
+
+#oop {
+	height: .50*width;
+	width: 50%;
+	margin: 0% 35.75% 0% 3%;
+	box-shadow: 3px 5px 3px black;
+}
+
+
+
+#output_1 {
+	width: 460px;
+	height: 117px;
+	margin: 0px 0px 0px 145px;
+	box-shadow: 3px 3px 3px black;
+}
+
+.content ul li{
+	list-style: none;
+	float: left;
+
+}
+
+.content a {
+	color: brown;
+	text-decoration: none;
+	margin: 9px;
+
+}
+
+#picture_link_caption {
+	margin-left: 145px;
+}
+
+a:link {
+	color: brown;
+}
+
+a:hover {
+	color: blue;
+}
+
+a:active {
+	color: lightgreen;
+}
+
+a:visited {
+	color: red;
+}
+
+/*--------------------------*/
+
+.content a:link {
+	color: brown;
+}
+
+.content a:hover {
+	color: blue;
+}
+
+.content a:active {
+	color: lightgreen;
+}
+
+.content a:visited {
+	color: red;
+}
+
+/* Footer */
+
+.footer {
+	position: relative;
+	font-family: cursive;
+	background-color: #CCC6BF;
+	border: 5px solid #CCC6BF;
+	border-radius: 0px 0px 25px 25px;
+	width: 98%;
+	height: 40px;
+	margin: 10px;
+	display: inline-block;
+}
+
+.footer p {
+		color: 	#8080FF;
+		margin: 10px;
+		padding: 0px;
+		text-indent: 0px;
+}
+
+
+
+/*  Ran out of Time */
+
+/** Tablet view **/
+/* @media screen and (max-width: 960px){  */
+/** Mobile view **/
+/*@media screen and (max-width: 480px){*/
+
+
