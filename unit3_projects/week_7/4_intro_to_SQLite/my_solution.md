@@ -1,31 +1,75 @@
-# U3.W7: Intro to SQLite
+# U3.W7: Modeling a Real-World Database (SOLO CHALLENGE)
 
-## Release 0: Create a dummy database
+## Release 0: Users Fields
+<!-- Identify the fields Twitter collects data for -->
 
-<img src="../imgs/release_0_dummy_database_and_schema.jpg" width="509" height="321">
+Users Fields
+	username
+	password
+	email
+	language
+	time_zone
+	country
+	photo
+	header
+	name
+	location
+	website
+	bio
 
-## Release 1: Insert Data 
+## Release 1: Tweet Fields
+<!-- Identify the fields Twitter uses to represent/display a tweet. What are you required or allowed to enter? -->
 
-<img src="../imgs/release_1_insert_data.jpg" width="706" height="258">
+Tweet Fields
+	text field
+	photo
 
-## Release 2: Multi-line commands
+## Release 2: Explain the relationship
+The relationship between `users` and `tweets` is: 
+
+It really depends on how I read the original question.
+
+Option #1: (Me and my Tweets: Referring to Ownership)
+	(This option focuses on certain words used in 03_model_one_to_many_solo_challenge.  The challenge refers to information collected for my 
+	profile.  It refers to creating a new tweet, which then would be mine.)
+	
+		This would put 'users' and 'tweets' in  a one-to-many relationship.  After all, my tweets are owned by me.  So, one user can have several tweets.
+
+Option #2: (Users and tweets: Referring to Accesss)
+
+		This would put 'users' and 'tweets' in a many-to-many relationship.  If I can see my tweets and the tweets of others and others share this same 
+		ability, then many users have access to many different user's tweets.
+	
+
+Where do you think they are connected? Explain your answer.
+
+		I believe that they are connected using @name.  This appears to be a URL and this would be unique per user.
+
+## Release 3: Schema Design
+
+<img src="../imgs/one_to_many.jpg" width="619" height="572">
+
+## Release 4: SQL Statements
+<!-- Include your SQL Statements. How can you make markdown files show blocks of code? -->
+    (I have tried to make it show blocks of code and I believe that this is to be accomplished, right now while viewing.  I am not satisfied, but need to move on for now.)
 
 
-<img src="../imgs/release_2_insert_data_error_column_email_is_not_unique.jpg" width="713" height="173">
+* all the tweets for a certain user id
+	<pre><code>SELECT text_field FROM tweets WHERE id = (a certain number)</code></pre>
 
-The email column was marked UNIQUE NOT NULL.  This keeps people from entering any new data that has this same email address.
+** the tweets for a certain user id that were made after last Wednesday (whenever last Wednesday was for you)
+	<pre><code>SELECT text_field FROM tweets WHERE id = (a certain number) && updated_at > </code></pre>
 
+*** all the tweets associated with a given user's twitter handle
+	<pre><code>SELECT text_field FROM tweets</code></pre>
+	<pre><code>JOIN users USING(@name)</code></pre>
 
-## Release 3: Add a column
+**** the twitter handle associated with a given tweet id
+	<pre><code>SELECT @name FROM users</code></pre>
+	<pre><code>JOIN tweets USING(id)</code></pre>
 
-<img src="../imgs/release_3_add_a_column_1.jpg" width="787" height="393">
-<img src="../imgs/release_3_add_a_column_2.jpg" width="791" height="127">
-
-## Release 4: Change a value
-
-<img src="../imgs/release_4_change_a_value.jpg" width="820" height="102">
-
-## Release 5: Reflect
+## Release 5: Reflection
+<!-- Be sure to add your reflection here!!! -->
 
 How to Reflect
 Reflecting is an incredibly important part of the learning process. It requires you to take a moment and think about what you've learned, what is confusing, and where you need to go. They document your learning process.
@@ -40,28 +84,34 @@ Answer the following questions (in addition to the challenge-specific questions)
 
 1)  What parts of your strategy worked? What problems did you face?
 
-For the most part this was just an introduction.  So, following the instructions was most helpful.  I also immediately researched how to accomplish adding a column and updating.
+I believe that my connection between db's is correct.  While on Twitter I noticed that a URL was displayed and it made sense that this is the link, because this URL would be unique for each user.        
 
 2)  What questions did you have while coding? What resources did you find to help you answer them?
 
-I found Office Dev Center to be clear and useful (http://msdn.microsoft.com/en-us/library/office/bb243852(v=office.12).aspx).     
+This refers to markdown and not db.  I was not able to get the code to appear as code.  I used the following sites: 
+http://daringfireball.net/projects/markdown/syntax#precode
+https://help.github.com/articles/github-flavored-markdown
+http://johnmacfarlane.net/pandoc/README.html
+http://support.mashery.com/docs/customizing_your_portal/Markdown_Cheat_Sheet
 
 3)  What concepts are you having trouble with, or did you just figure something out? If so, what?
 
-These seemed to be fairly basic and easy.
+ Join is a bit tricky or it is so obvious that I am not seeing it.  I have worked with Venn Diagrams and believe that this is roughly the idea behind join, plus a document that Patrick sent me, however, I need more practice with running databases.
 
 4)  Did you learn any new skills or tricks?
 
-I enjoyed making making tables and using CREATE TABLE, INSERT INTO, DATETIME('now'), UPDATE, and SET.     
+Mostly practiced and investigated further.
 
 5)  How confident are you with each of the Learning Competencies?
 
-I would place my condidence as an 8 and would like to practice more.
+I feel pretty confident about creating schema and not repeating     
 
 6)  Which parts of the challenge did you enjoy?
-  
-I really enjoyed all of it.  It was fun to create tables that seemed to appear out of thin air - cool.	  
+
+I enjoyed investigating a real-life database and looking at the connections.  I also liked thinking of what would make the most sense a primary key.    
 
 7)  Which parts of the challenge did you find tedious?
 
-I enjoyed all of this challenge.
+I didn't find any of this assignment tedious.
+
+
