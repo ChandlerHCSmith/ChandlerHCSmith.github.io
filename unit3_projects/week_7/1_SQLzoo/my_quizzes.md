@@ -6,8 +6,9 @@
 
 ### My Quiz Results:
 
-<img src="imgs/sql_quiz_a.jpg" alt="Quiz Results for SQLzoo">
-<img src="imgs/sql_quiz_b.jpg" alt="Quiz Results for SQLzoo">
+<img src="../imgs/sql_quiz_a.jpg" height="476" width="601">
+<img src="../imgs/sql_quiz_b.jpg" height="476" width="601">
+
 
 ### Reflection
 
