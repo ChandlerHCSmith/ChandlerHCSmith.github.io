@@ -47,7 +47,7 @@ Where do you think they are connected? Explain your answer.
 
 ## Release 3: Schema Design
 
-<img src="one_to_many.jpg" alt="One to Many Schema">
+<img src="../imgs/one_to_many.jpg" width="619" height="572">
 
 ## Release 4: SQL Statements
 <!-- Include your SQL Statements. How can you make markdown files show blocks of code? -->
