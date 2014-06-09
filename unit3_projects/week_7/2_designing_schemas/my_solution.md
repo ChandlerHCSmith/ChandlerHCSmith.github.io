@@ -5,19 +5,19 @@
 
 
 ## Release 0: Student Roster Schema
-<img src="imgs/release_0_student_roster_schema.jpg" alt="Student Roster Schema">
+<img src="../imgs/release_0_student_roster_schema.jpg" height="526" width="526">
 
 
 ## Release 1: One to Many Schema
-<img src="imgs/release_1_one_to_many_schema.jpg" alt="One to Many Schema">
+<img src="../imgs/release_1_one_to_many_schema.jpg" height="524" width="606">
 
 
 ## Release 2: One to One Schema
-<img src="imgs/release_2_one_to_one_schema.jpg" alt="One to One Schema">
+<img src="../imgs/release_2_one_to_one_schema.jpg" height="512" width="725">
 
 
 ## Release 3: Many to Many Schema
-<img src="imgs/release_3_many_to_many_schema.jpg" alt="Many to Many Schema">
+<img src="../imgs/release_3_many_to_many_schema.jpg" height="532" width="808">
 
 
 ## Release 4: Design your own Schema
@@ -25,10 +25,10 @@ Description of what you're modeling:
 
 One-to-One:
   Every driver has a unique driver license number and this number is linked to that person's driving record.
-<img src="imgs/release_4_design_own_one_to_one.jpg" alt="Design Your Own Schema: One to One">
+<img src="../imgs/release_4_design_own_one_to_one.jpg" height="510" width="735">
 
   Many of the contributions to science are collaborative.  This means that each scientist is attached to the contribution to science.  Each scientist also contributes to many experiments and discoveries.  Each discovery is therefore linked to several scientist.  This is true of scientific articles as well, so I added another table of scientific articles.  Now, I am not sure that this model is always true.  I would expect that some publications are by a single author/scientist and that some discoveries are made by solo scientists as well.  However, it is a decent model.
-<img src="imgs/release_4_design_own_many_to_many" alt="Design Your Own Schema: Many to Many">
+<img src="../imgs/release_4_design_own_many_to_many.jpg" height="558" width="1016">
 
 ## Release 5: Reflection
 
