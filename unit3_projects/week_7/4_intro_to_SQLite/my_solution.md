@@ -2,28 +2,28 @@
 
 ## Release 0: Create a dummy database
 
-<img src="imgs/release_0_dummy_database_and_schema.jpg" alt="Dummy Database">
+<img src="../imgs/release_0_dummy_database_and_schema.jpg" width="509" height="321">
 
 ## Release 1: Insert Data 
 
-<img src="imgs/release_1_insert_data.jpg" alt="Insert Data">
+<img src="../imgs/release_1_insert_data.jpg" width="706" height="258">
 
 ## Release 2: Multi-line commands
 
 
-<img src="imgs/release_2_insert_data_error_column_email_is_not_unique.jpg" alt="Unique Columns and Errors">
+<img src="../imgs/release_2_insert_data_error_column_email_is_not_unique.jpg" width="713" height="173">
 
 The email column was marked UNIQUE NOT NULL.  This keeps people from entering any new data that has this same email address.
 
 
 ## Release 3: Add a column
 
-<img src="imgs/release_3_add_a_column_1.jpg" alt="Add a Column">
-<img src="imgs/release_3_add_a_column_2.jpg" alt="Add a Column">
+<img src="../imgs/release_3_add_a_column_1.jpg" width="787" height="393">
+<img src="../imgs/release_3_add_a_column_2.jpg" width="791" height="127">
 
 ## Release 4: Change a value
 
-<img src="imgs/release_4_change_a_value.jpg" alt="Change a Value">
+<img src="../imgs/release_4_change_a_value.jpg" width="820" height="102">
 
 ## Release 5: Reflect
 
