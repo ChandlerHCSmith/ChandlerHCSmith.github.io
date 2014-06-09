@@ -1,36 +1,31 @@
-# U3.W7: Designing Schemas
+# U3.W7: Intro to SQLite
+
+## Release 0: Create a dummy database
+
+<img src="../imgs/release_0_dummy_database_and_schema.jpg" width="509" height="321">
+
+## Release 1: Insert Data 
+
+<img src="../imgs/release_1_insert_data.jpg" width="706" height="258">
+
+## Release 2: Multi-line commands
 
 
-#### I worked on this challenge [by myself]
+<img src="../imgs/release_2_insert_data_error_column_email_is_not_unique.jpg" width="713" height="173">
+
+The email column was marked UNIQUE NOT NULL.  This keeps people from entering any new data that has this same email address.
 
 
-## Release 0: Student Roster Schema
-<img src="../imgs/release_0_student_roster_schema.jpg" height="526" width="526">
+## Release 3: Add a column
 
+<img src="../imgs/release_3_add_a_column_1.jpg" width="787" height="393">
+<img src="../imgs/release_3_add_a_column_2.jpg" width="791" height="127">
 
-## Release 1: One to Many Schema
-<img src="../imgs/release_1_one_to_many_schema.jpg" height="524" width="606">
+## Release 4: Change a value
 
+<img src="../imgs/release_4_change_a_value.jpg" width="820" height="102">
 
-## Release 2: One to One Schema
-<img src="../imgs/release_2_one_to_one_schema.jpg" height="512" width="725">
-
-
-## Release 3: Many to Many Schema
-<img src="../imgs/release_3_many_to_many_schema.jpg" height="532" width="808">
-
-
-## Release 4: Design your own Schema
-Description of what you're modeling: 
-
-One-to-One:
-  Every driver has a unique driver license number and this number is linked to that person's driving record.
-<img src="../imgs/release_4_design_own_one_to_one.jpg" height="510" width="735">
-
-  Many of the contributions to science are collaborative.  This means that each scientist is attached to the contribution to science.  Each scientist also contributes to many experiments and discoveries.  Each discovery is therefore linked to several scientist.  This is true of scientific articles as well, so I added another table of scientific articles.  Now, I am not sure that this model is always true.  I would expect that some publications are by a single author/scientist and that some discoveries are made by solo scientists as well.  However, it is a decent model.
-<img src="../imgs/release_4_design_own_many_to_many.jpg" height="558" width="1016">
-
-## Release 5: Reflection
+## Release 5: Reflect
 
 How to Reflect
 Reflecting is an incredibly important part of the learning process. It requires you to take a moment and think about what you've learned, what is confusing, and where you need to go. They document your learning process.
@@ -45,30 +40,28 @@ Answer the following questions (in addition to the challenge-specific questions)
 
 1)  What parts of your strategy worked? What problems did you face?
 
-I enjoyed working with the different schema.  I enjoyed working with SQL Designer.  I had to research the flow with primaray keys.  The idea is fairly simple, except the presentation of tables in a single column/field is different for me at present.      
+For the most part this was just an introduction.  So, following the instructions was most helpful.  I also immediately researched how to accomplish adding a column and updating.
 
 2)  What questions did you have while coding? What resources did you find to help you answer them?
 
-I really questioned if I was seeing the flow/connection between tables correctly.  I think that I am, however, I will want to chart/map this relation out using some charts.  
+I found Office Dev Center to be clear and useful (http://msdn.microsoft.com/en-us/library/office/bb243852(v=office.12).aspx).     
 
 3)  What concepts are you having trouble with, or did you just figure something out? If so, what?
 
- This is the same as number 2)  
+These seemed to be fairly basic and easy.
 
 4)  Did you learn any new skills or tricks?
 
-The idea of a primary key connecting everthing together made sense.  I think I gained the most, and still have so much room to grow in, by thinking of how to link datatables so that there is the least amount of repeat.
+I enjoyed making making tables and using CREATE TABLE, INSERT INTO, DATETIME('now'), UPDATE, and SET.     
 
 5)  How confident are you with each of the Learning Competencies?
 
-I believe that I understand the main/core ideas stongly.  I did want to double check my process/order of clicking fields to make connections between fields.     
-6)  Which parts of the challenge did you enjoy?
+I would place my condidence as an 8 and would like to practice more.
 
-Again, I really like the puzzle/logic challenge.  I also liked the graphic display.
+6)  Which parts of the challenge did you enjoy?
+  
+I really enjoyed all of it.  It was fun to create tables that seemed to appear out of thin air - cool.	  
 
 7)  Which parts of the challenge did you find tedious?
 
-I really wanted to copy fields for use in other tables.  Knowing that this might be an option and that it would really make sense, bugged me a bit.
-
-
-
+I enjoyed all of this challenge.
