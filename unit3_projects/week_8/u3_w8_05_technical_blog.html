@@ -1,0 +1,97 @@
+<DOCTYPE! html>
+
+<html>
+	<head>
+	<title>Week 8 Technical Blog</title>
+	<link rel="stylesheet" href="stylesheets/wk8_technical_blog.css">
+	<link href='http://fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+	<div class="header">
+		<p>Week 8 Technical Blog<p>
+		<nav>	
+			<ul>
+				<li><a href="http://blog.teamtreehouse.com/css-positioning">Treehouse</a></li>
+				<li><a href="http://www.codecademy.com/courses/advanced-css-positioning/0/1">CodeAcademy</a></li>
+				<li><a href="http://www.w3schools.com/css/css_positioning.asp">W3Schools</a></li>
+				<li><a href="http://www.netflix.com/">Relaxation</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="content">
+		<h1 id="title_line">Static vs. Dynamic Typed Language</h1>
+	
+		<img id="feature_pic" src="images/aa.jpg" alt="What Can Be Accomplished Together">
+
+		<h3>Imagine</h3>
+
+
+		<p id="body_paragraphs">You have access to a very intricate machine, something from the pages of one of Dr. Suess' wispy stories.  This device will take in materials and build items of your choosing while you watch.  Now the first item you desire the machine to build is a fabulous, glorious house.</p>
+						
+		<p id="body_paragraphs">Here are 2 lists of building materials:</p>
+
+		<h4 id="list">List 1</h4>
+
+		<p id="list_items">Concrete, rebar, brackets, wood, plastic, glass, drywall,... (you get the idea)</p>
+
+		<h4 id="list">List 2</h4>
+
+		<p id="list_items">Graham crackers, frosting, candy canes, gumdrops, small marshmallows, licorice whips, sprinkles, peppermint candies,</p>
+		<p id="list_items">red hots,... (you get the idea)</p>
+
+		<p id="body_paragraphs">At the moment, the machine is set to check the input materials very carefully and decide if they are suitable for the item's construction.  It has preprogrammed parameters regarding the types of materials and their purposes.  It has been instructed regarding certain specifications for the load bearing beams, which will hold up the ceiling, the bulk modulus for the concrete which will form the foundation, the size of nails to be used in affixing one piece of wood to another, and so on.</p>
+
+		<p id="body_paragraphs">With these parameter, the machine will build a very nice house.  If it is given some creative license, it will design houses with different architectural styles and this will be very pleasing.  However, resulting from its current settings, it will never utilize glass as a load bearing beam. </p>
+
+		<p id="body_paragraphs">You might ask why?</p>
+
+		<p id="body_paragraphs">The machine has been told, in advance, that load bearing beams can only be made from one, two, or three different material choices - glass is not on this list.  This has its pros and cons.  All structures it designs and builds will be safe and adhere to certain codes.  However, this might limit it creativity.  For example, it will never build you a house made from List 2... well, unless it has been told to make a Gingerbread House and use items from List 2.  In this case it has a new set of criteria upon which to navigate decisions and manipulate information.</p>
+
+		<h3>Static Typed Languages</h3>
+
+		<p id="body_paragraphs">These languages, like our machine above on its current settings, specify ahead of time what type of data is allowed to be assigned to certain variables and then very importantly, what type of manipulations, operations, or interactions may happen to or with this data.  This defining is embedded in very fabric of the code.  This seems nice and in many ways it is.  It is like having very strict air traffic control and anyone who travels by flight is happy that someone is guiding all of the planes to their proper destinations (Most of us would rather not think about this aspect while in flight).</p>
+
+		<p id="body_paragraphs">This level of control reduces runtime and guarantees types, which is useful for the certainty of return values.  However, the code is not as reusable.  Remember, it was written with one very specific goal/task in mind.  Hopefully it carries out this goal/task with efficiency, but this removes quite a bit of its flexibility, much like the house example above.</p>
+
+		<p id="body_paragraphs">An example of some static typed language that should work well:</p>
+		
+		<p id="code" id="body_paragraphs"><code>fun cube x = x * x * x</code></p>
+
+		<p id="code" id="body_paragraphs"><code>cube 3</code></p>
+
+		<p id="body_paragraphs">This code cubes a number.  People should know better than to expect it to do anything other than take in numbers, not arrays, nor strings.  These enforced rules sometimes create situations where the logic of the program is sound, but the program is rejected because it does not follow all of the data type rules.</p>
+
+		<p id="body_paragraphs">Here is a favorite that's also presented in the following youtube video: <a href="http://www.youtube.com/watch?v=tEt_3b28v1I">(15. Static Versus Dynamic Typing - Part 1)</a></p>
+
+		<p id="code" id="body_paragraphs"><code>var par_of_pars = f (fn x => (x,x))*</code></p>
+
+
+		<p id="body_paragraphs">*I ran into this problem when I wanted to create a pair out of just one input.  You can create a pair out of just one input, but not the way just mentioned. The example makes sense, but it does not follow the rules and will not run as written.</p>
+
+		<h3>Dynamic Typed Languages</h3>
+
+		<p id="body_paragraphs">When looking at dynamic typed languages, many of the restrictions of data types are lifted.  It is the programmers responsibility to put together a program that uses information correctly, since there is less intrinsic guarantee that the language is being guided and governed.  It is believed that this increases creativity and productivity.  With dynamic typed language you would, on occasion, get a house made of the items from list 2.  Depending on the size house desired and the mood you are in, this could be tragic or magnificent. </p>
+ 
+		<p id="body_paragraphs">This code is more general, remember data types have not been explicitly given.  Since data type defining is not as clear, much of the enforcing takes places during running.  This does increase running time, which is a con.  Much of the beauty comes from variables being defined more by their qualities and functionality at a given State than their initial values.  This allows for information to be more fluid and to change over time.</p>
+
+		<p id="body_paragraphs"></p>
+
+		<p id="body_paragraphs">Here's to us Boots!</p>
+
+		<br>
+		<br>
+		<br>
+	</div>
+
+
+	<div class="footer">
+		<p>2014, Adverture Sundays SSR *</p>
+	</div>
+	</body>
+
+</html>
+
+
+
+
