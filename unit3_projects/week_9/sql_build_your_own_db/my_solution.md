@@ -7,10 +7,10 @@
 Follow the instructions from 4_intro_to_SQLite to set up your database.
 
 Here is the Schema for the vendors table:
-<img src="..imgs/schema_vendors_small.jpg" height="184" width="362">
+<img src="http://ChandlerHCSmith.github.io/unit3_projects/week_9/sql_build_your_own_db/imgs/schema_vendors_small.jpg" height="184" width="362">
 
 Here is the Schema for the contracts table:
-<img src="..imgs/schema_contracts_small.jpg" height="141" width="434">
+<img src="http://ChandlerHCSmith.github.io/unit3_projects/week_9/sql_build_your_own_db/imgs/schema_contracts_small.jpg" height="141" width="434">
 
 ### Release 3: Join your tables
 Research connecting your tables to one another.
@@ -47,8 +47,8 @@ ORDER BY tonage;
 Enter some data for one of the tables. Make at least 10 entries.
 
 Here is the vendors table:
-<img src="..imgs/vendors_table.jpg" height="202" width="1020">
+<img src="http://ChandlerHCSmith.github.io/unit3_projects/week_9/sql_build_your_own_db/imgs/vendors_table.jpg" height="202" width="1020">
 
 Here is the contracts table:
-<img src="..imgs/contracts_table.jpg" height="113" width="724">
+<img src="http://ChandlerHCSmith.github.io/unit3_projects/week_9/sql_build_your_own_db/imgs/contracts_table.jpg" height="113" width="724">
 
