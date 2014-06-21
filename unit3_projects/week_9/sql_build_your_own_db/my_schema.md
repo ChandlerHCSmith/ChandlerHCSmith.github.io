@@ -18,7 +18,7 @@ Many-to-many relationship: Each vendor may be awarded several contracts.  Each c
 ###Release 1: Design the Schema
 ### My Schema:
 
-<img src="ChandlerHCSmith.github.io/unit3_projects/week_9/sql_build_your_own_db/imgs/graphical_schema_of_vendors_and_contracts.jpg" height="510" width="592">
+<img src="http://ChandlerHCSmith.github.io/unit3_projects/week_9/sql_build_your_own_db/imgs/graphical_schema_of_vendors_and_contracts.jpg" height="510" width="592">
 
 
 
