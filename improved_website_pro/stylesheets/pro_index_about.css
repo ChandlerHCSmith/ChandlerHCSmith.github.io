@@ -1,0 +1,205 @@
+
+body {
+	background-color: #FFF;
+
+}
+
+
+/* Header */
+.header {
+	width: 100%;
+	height: 100px;
+	background-color: #000;
+	margin: 0px;
+	border: 2px solid #000;
+	border-radius: 5px;
+	display: block;
+}
+
+.header h1 {
+	font-family: cursive;
+	text-shadow: 4px 4px 6px #FFF;
+	font-size: 36px;
+	color: #FFF;
+	float: left;
+	padding-left: 2px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 20px;
+	margin: 10px 2px 4px 10px;
+	display: block;
+}
+
+.header nav {
+
+	font-family: cursive;
+	color: green;
+	float: right;    
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	margin: 0px 12px 5px 0px;
+	display: inline;
+}
+
+.header ul li{
+	list-style: none;
+	float: left;
+}
+
+.header a {
+	text-decoration: none;
+	text-shadow: 4px 4px 8px #FFF;
+	margin: 9px;
+}
+
+.header a:link {
+	color: white;
+}
+
+.header a:visited {
+	color: red;
+}
+
+.header a:hover {
+	color: blue;
+}
+
+.header a:active {
+	color: lightgreen;
+}
+
+#feature_pic {
+	height: .18*width;
+	width: 100%;
+	margin: 0% 0% 2% 0%;
+	box-shadow: 3px 5px 3px 5px black;
+}
+
+/* Content */
+
+.content {
+	font-family: "Verdant";
+	width: 98%;
+	height: 1500px;
+	margin: 5px 5px 5px 5px;
+	padding: 10px;
+	display: inline-block;
+}
+
+#bio_pic {
+	height: 1.25*width;
+	width: 15%;
+	margin: 0% 0% 2% 7%;
+	box-shadow: 1px 2px 1px 2px black;
+}
+
+.content p h1 h2 h3 {
+	font-family: cursive;
+}
+
+.blogs p {
+	color: #ABABAB;
+	font-size: 1.35em;
+	text-indent: 50px;
+}
+
+
+#title_line_1 {
+	text-indent: 2.5%;
+	margin: 0px 0px 0px 0px;
+}
+
+#title_line_2 {
+	text-indent: 4.5%;
+	margin: 0px 0px 0px 0px;
+}
+
+
+.content h1 {
+	color: #4444DD;
+}
+
+.content h2 {
+	color: #AB4D3F;
+}
+
+.content h3{
+	color: #333399;
+}
+
+.content h4{
+	color: #333399;
+}
+
+.content p {
+	color: #556677;
+}
+
+#title_line_1 {
+	text-indent: 2.5%;
+}
+
+#title_line_2 {
+	text-indent: 4.5%;
+}
+
+
+.content ul li{
+	list-style: none;
+	float: left;
+}
+
+.content a {
+	color: brown;
+	text-decoration: none;
+	margin: 9px;
+}
+
+.content a:link {
+	color: brown;
+}
+
+.content a:visited {
+	color: red;
+}
+
+.content a:hover {
+	color: blue;
+}
+
+.content a:active {
+	color: lightgreen;
+}
+
+#body_paragraphs {
+	color: #555;
+	text-shadow: 4px 4px 4px #CCC;
+	text-indent: 50px;
+	font-size: 1.45em;
+}
+
+/* Footer */
+
+.footer {
+	position: relative;
+	font-family: cursive;
+	background-color: #000;
+	border: 5px solid #000;
+	border-radius: 0px 0px 12px 12px;
+	width: 98%;
+	height: 40px;
+	margin: 10px;
+	display: inline-block;
+}
+
+.footer p {
+		color: 	#8080FF;
+		margin: 10px;
+		padding: 0px;
+		text-indent: 5px;
+}
+
+
+

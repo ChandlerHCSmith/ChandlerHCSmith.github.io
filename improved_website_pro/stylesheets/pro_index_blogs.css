@@ -1,0 +1,377 @@
+
+body {
+	background-color: #FFF;
+
+}
+
+
+
+/* Header */
+.header {
+	width: 100%;
+	height: 100px;
+	background-color: #000;
+	margin: 0px;
+	border: 2px solid #000;
+	border-radius: 5px;
+	display: block;
+
+}
+
+.header h1 {
+
+	font-family: cursive;
+	text-shadow: 4px 4px 6px #FFF;
+	font-size: 36px;
+	color: #FFF;
+	float: left;
+	padding-left: 2px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 20px;
+	margin: 10px 2px 4px 10px;
+	display: block;
+}
+
+/*
+.header h2 {
+
+	font-family: cursive;
+	font-size: 11px;    
+	color: #FFF;
+	float: left;
+	padding-left: 2px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 20px;
+	margin: 0px 2px 2px 2px;
+	display: inline;
+}
+*/
+
+
+.header nav {
+
+	font-family: cursive;
+	color: green;
+	float: right;    
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	margin: 0px 12px 5px 0px;
+	display: inline;
+
+}
+
+.header ul li{
+	list-style: none;
+	float: left;
+
+}
+
+.header a {
+	text-decoration: none;
+	text-shadow: 4px 4px 8px #FFF;
+	margin: 9px;
+
+}
+
+.header a:link {
+	color: white;
+}
+
+.header a:visited {
+	color: red;
+}
+
+.header a:hover {
+	color: blue;
+}
+
+.header a:active {
+	color: lightgreen;
+}
+
+#feature_pic {
+	height: .18*width;
+	width: 100%;
+	margin: 0% 0% 2% 0%;
+	box-shadow: 3px 5px 3px 5px black;
+}
+
+/* Content */
+/* Content */
+
+.content_1 {
+	font-family: "Verdant";
+	width: 98%;
+	height: 300px;
+	margin: 5px 5px 5px 5px;
+	padding: 10px;
+	display: inline-block;
+}
+
+.content_1 p h1 h2 h3 {
+	font-family: cursive;
+}
+
+.blogs p {
+	color: #ABABAB;
+	font-size: 1.35em;
+	text-indent: 50px;
+}
+
+/*
+#body_paragraphs::first-letter 
+{
+color:#121212;
+font-size:x-large;
+}
+*/
+
+#title_line_1 {
+	text-indent: 2.5%;
+}
+
+#title_line_2 {
+	text-indent: 4.5%;
+}
+
+
+.content_1 h1 {
+	color: #4444DD;
+}
+
+.content_1 h2 {
+	color: #AB4D3F;
+}
+
+.content_1 h3{
+	color: #333399;
+}
+
+.content_1 h4{
+	color: #333399;
+}
+
+.content_1 p {
+	color: #556677;
+}
+
+/*
+#feature_pic {
+	height: .18*width;
+	width: 100%;
+	margin: 0% 0% 2% 0%;
+	box-shadow: 3px 5px 3px 5px black;
+}
+*/
+
+/*-----------*/
+
+
+.blogs nav {
+
+	font-family: cursive;
+	color: green;
+/*	float: right; */
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	margin: 0px 12px 5px 0px;
+	display: block;
+
+}
+
+
+.blogs ul li{
+	list-style: none;
+/*	float: left;    */
+	display: block;
+
+}
+
+.blogs a {
+	text-decoration: none;
+	text-shadow: 4px 4px 6px #FFF;
+	margin: 9px;
+
+}
+
+.blogs a:link {
+	color: green;
+}
+
+.blogs a:visited {
+	color: red;
+}
+
+.blogs a:hover {
+	color: blue;
+}
+
+.blogs a:active {
+	color: lightgreen;
+}
+
+
+/*--------------
+.content {
+	font-family: "Verdant";
+	width: 98%;
+	height: 1900px;
+	margin: 5px 5px 5px 5px;
+	padding: 10px;
+	display: inline-block;
+}
+
+.content p h1 h2 h3 {
+	font-family: "Verdant";
+}
+
+.content p {
+	text-indent: 10px;
+}
+
+/*
+#body_paragraphs::first-letter 
+{
+color:#121212;
+font-size:x-large;
+}
+*/
+
+#title_line_1 {
+	text-indent: 2.5%;
+}
+
+#title_line_2 {
+	text-indent: 4.5%;
+}
+
+
+.content_1 h1 {
+	color: #4444DD;
+}
+
+.content_1 h2 {
+	color: #AB4D3F;
+}
+
+.content_1 h3{
+	color: #333399;
+}
+
+.content_1 h4{
+	color: #333399;
+}
+
+.content_1 p {
+	color: #556677;
+}
+
+/*
+#feature_pic {
+	height: .18*width;
+	width: 100%;
+	margin: 0% 0% 2% 0%;
+	box-shadow: 3px 5px 3px 5px black;
+}
+
+*/
+
+.content_1 ul li{
+	list-style: none;
+	float: left;
+
+}
+
+
+
+.content_1 a {
+	color: brown;
+	text-decoration: none;
+	margin: 9px;
+
+}
+
+a:link {
+	color: brown;
+}
+
+a:visited {
+	color: red;
+}
+
+a:hover {
+	color: blue;
+}
+
+a:active {
+	color: lightgreen;
+}
+
+
+
+/*--------------------------*/
+
+.content_1 a:link {
+	color: brown;
+}
+
+.content_1 a:visited {
+	color: red;
+}
+
+.content_1 a:hover {
+	color: blue;
+}
+
+.content_1 a:active {
+	color: lightgreen;
+}
+
+#body_paragraphs {
+	color: #555;
+	text-shadow: 4px 4px 4px #CCC;
+	text-indent: 50px;
+	font-size: 1.45em;
+}
+
+/* Footer */
+
+.footer {
+	position: relative;
+	font-family: cursive;
+	background-color: #000;
+	border: 5px solid #000;
+	border-radius: 0px 0px 12px 12px;
+	width: 98%;
+	height: 40px;
+	margin: 10px;
+	display: inline-block;
+}
+
+.footer p {
+		color: 	#8080FF;
+		margin: 10px;
+		padding: 0px;
+		text-indent: 5px;
+}
+
+
+
+/*  Ran out of Time */
+
+/** Tablet view **/
+/* @media screen and (max-width: 960px){  */
+/** Mobile view **/
+/*@media screen and (max-width: 480px){*/
+
+/*caption {
+	font-size: 9px;
+}*/
+
+
