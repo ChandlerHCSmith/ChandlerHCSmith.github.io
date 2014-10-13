@@ -1,4 +1,4 @@
 ChandlerHCSmith.github.io
 =========================
 
-My DBC Phase 0 GitHub Pages site!
+Improved Website Pro and Phase 0 DBC Material! 
